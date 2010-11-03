@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       145,          7]
-NotebookDataLength[     77013,       1696]
-NotebookOptionsPosition[     73324,       1575]
-NotebookOutlinePosition[     74297,       1608]
-CellTagsIndexPosition[     74218,       1603]
+NotebookDataLength[     79920,       1768]
+NotebookOptionsPosition[     76109,       1643]
+NotebookOutlinePosition[     77082,       1676]
+CellTagsIndexPosition[     77003,       1671]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -600,7 +600,7 @@ j0if9BFU7vGOzX+jj2JG6Zc+ivI1fTpf1S4+hj9K38LZGB6mzfp+C31c/f+c
    3.4737769306884336`*^9}]
 }, {2}]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 
 Cell[CellGroupData[{
 
@@ -793,7 +793,7 @@ j0if9BFU7vGOzX+jj2JG6Zc+ivI1fTpf1S4+hj9K38LZGB6mzfp+C31c/f+c
   PlotRangePadding->{6, 5}]], "Output",
  CellChangeTimes->{{3.473776753106473*^9, 3.473776779206895*^9}, {
   3.473776834113742*^9, 3.47377685567949*^9}}]
-}, {2}]]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -1074,7 +1074,7 @@ zMzX4gUtJv7BFIvxP4gAAEU=
    3.473730284620544*^9, 3.473730332166545*^9}, 3.4737303699510098`*^9, 
    3.4737305318470182`*^9, 3.473730787265113*^9, 3.473736192025064*^9, 
    3.473738471031988*^9, 3.473739806582385*^9, 3.473776941564537*^9}]
-}, {2}]]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]],
 
@@ -1569,7 +1569,75 @@ Cell[BoxData[
  CellChangeTimes->{
   3.4737375564513197`*^9, 3.473737637542018*^9, {3.4737766811889772`*^9, 
    3.473776683235609*^9}, {3.473776714497933*^9, 3.473776851501981*^9}}]
-}, Closed]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"plotLinLogArray", "[", 
+  RowBox[{"{", 
+   RowBox[{
+   "880", ",", "440", ",", "220", ",", "110", ",", "55", ",", "166", ",", 
+    "83"}], "}"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {InsetBox[
+     GraphicsBox[{GraphicsComplexBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQEf7MFUQ7cDVABCN1RD+RxQfjaULwDlR0P5IlC+
+N5QvAaEPpED5MlB+iAOKfQyZqPbB+RxofAE0vggaXwKNL4PGp5//AKNRIK0=
+
+        "], {{{}, {}, {}, 
+          {Hue[0.67, 0.6, 0.6], Opacity[0.2], LineBox[{11, 4}], 
+           LineBox[{12, 5}], LineBox[{13, 6}], LineBox[{14, 7}]}, 
+          {Hue[0.67, 0.6, 0.6], Opacity[0.2], LineBox[{8, 1}], 
+           LineBox[{9, 2}], LineBox[{10, 3}]}}, {{}, 
+          {Hue[0.67, 0.6, 0.6], 
+           PointBox[{15, 16, 17, 18, 19, 20, 21}]}, {}}}], {{}, {}, 
+        {Hue[0.67, 0.6, 0.6], 
+         LineBox[{{1., 880.}, {2., 440.}, {3., 220.}, {4., 110.}, {5., 55.}, {
+          6., 166.}, {7., 83.}}]}}},
+      AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+      Axes->True,
+      AxesLabel->{
+        FormBox["\"\"", TraditionalForm], 
+        FormBox["\"Freq (Hz)\"", TraditionalForm]},
+      AxesOrigin->{0, 200.},
+      PlotRange->{{0, 7.}, {55., 880.}},
+      PlotRangeClipping->True,
+      PlotRangePadding->{
+        Scaled[0.02], 
+        Scaled[0.02]}], {192., -116.80842387373012`}, 
+     ImageScaled[{0.5, 0.5}], {360., 222.49223594996212`}], InsetBox[
+     GraphicsBox[{GraphicsComplexBox[CompressedData["
+1:eJxTTMoPSmViYGAQBWIQDQEf7MGUQ4gDVABCOwRC+RwO/0Gg3gfKF4DQDW5Q
+vgiU7wDlSzgoCWnFPuH3gvJlHBTBfBcHFPsYYHyofXA+BxpfAI0vgsaXQOPL
+oPHp5z8ACDoqwA==
+        "], {{{}, {}, {}, 
+          {Hue[0.67, 0.6, 0.6], Opacity[0.2], LineBox[{12, 5}]}, 
+          {Hue[0.67, 0.6, 0.6], Opacity[0.2], LineBox[{8, 1}], 
+           LineBox[{9, 2}], LineBox[{10, 3}], LineBox[{11, 4}], 
+           LineBox[{13, 6}], LineBox[{14, 7}]}}, {{}, 
+          {Hue[0.67, 0.6, 0.6], 
+           PointBox[{15, 16, 17, 18, 19, 20, 21}]}, {}}}], {{}, {}, 
+        {Hue[0.67, 0.6, 0.6], 
+         LineBox[{{1., 81.}, {2., 69.}, {3., 56.99999999999999}, {4., 45.}, {
+          5., 33.}, {6., 52.124156613867186`}, {7., 40.12415661386718}}]}}},
+      AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
+      Axes->True,
+      AxesLabel->{
+        FormBox["\"\"", TraditionalForm], 
+        FormBox["\"Log freq\"", TraditionalForm]},
+      AxesOrigin->{0, 40.},
+      PlotRange->{{0, 7.}, {33., 81.}},
+      PlotRangeClipping->True,
+      PlotRangePadding->{
+        Scaled[0.02], 
+        Scaled[0.02]}], {576., -116.80842387373012`}, 
+     ImageScaled[{0.5, 0.5}], {360., 222.49223594996212`}]}, {}},
+  ContentSelectable->True,
+  PlotRangePadding->{6, 5}]], "Output",
+ CellChangeTimes->{3.490613990233412*^9}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -1592,17 +1660,17 @@ CellTagsIndex->{
    CellTags->"SlideShowHeader"],
   Cell[25283, 606, 64, 1, 8, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[35140, 801, 64, 1, 8, "SlideShowNavigationBar",
+  Cell[35143, 801, 64, 1, 8, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[50569, 1082, 64, 1, 8, "SlideShowNavigationBar",
+  Cell[50575, 1082, 64, 1, 8, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"],
-  Cell[65241, 1350, 64, 1, 8, "SlideShowNavigationBar",
+  Cell[65247, 1350, 64, 1, 8, "SlideShowNavigationBar",
    CellTags->"SlideShowHeader"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"SlideShowHeader", 73668, 1587}
+ {"SlideShowHeader", 76453, 1655}
  }
 *)
 (*NotebookFileOutline
@@ -1630,7 +1698,7 @@ Cell[8262, 217, 11902, 291, 583, "Input"],
 Cell[20167, 510, 5058, 89, 511, "Output"]
 }, {2}]]
 }, Open  ]]
-}, Open  ]],
+}, Closed]],
 Cell[CellGroupData[{
 Cell[25283, 606, 64, 1, 8, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
@@ -1640,62 +1708,66 @@ Cell[25475, 614, 781, 18, 26, "PreviousNext"],
 Cell[CellGroupData[{
 Cell[26281, 636, 364, 9, 27, "Input"],
 Cell[26648, 647, 8434, 147, 295, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35143, 801, 64, 1, 8, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[35232, 806, 119, 1, 67, "Section"],
+Cell[35354, 809, 781, 18, 26, "PreviousNext"],
+Cell[CellGroupData[{
+Cell[36160, 831, 780, 15, 27, "Input"],
+Cell[36943, 848, 13571, 227, 484, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[50575, 1082, 64, 1, 8, "SlideShowNavigationBar",
+ CellTags->"SlideShowHeader"],
+Cell[CellGroupData[{
+Cell[50664, 1087, 126, 1, 67, "Section"],
+Cell[50793, 1090, 781, 18, 26, "PreviousNext"],
+Cell[CellGroupData[{
+Cell[51599, 1112, 537, 11, 27, "Input"],
+Cell[52139, 1125, 13050, 218, 306, "Output"]
 }, {2}]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[35140, 801, 64, 1, 8, "SlideShowNavigationBar",
+Cell[65247, 1350, 64, 1, 8, "SlideShowNavigationBar",
  CellTags->"SlideShowHeader"],
 Cell[CellGroupData[{
-Cell[35229, 806, 119, 1, 67, "Section"],
-Cell[35351, 809, 781, 18, 26, "PreviousNext"],
+Cell[65336, 1355, 102, 1, 67, "Section"],
+Cell[65441, 1358, 781, 18, 26, "PreviousNext"],
 Cell[CellGroupData[{
-Cell[36157, 831, 780, 15, 27, "Input"],
-Cell[36940, 848, 13571, 227, 484, "Output"]
-}, {2}]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[50569, 1082, 64, 1, 8, "SlideShowNavigationBar",
- CellTags->"SlideShowHeader"],
-Cell[CellGroupData[{
-Cell[50658, 1087, 126, 1, 67, "Section"],
-Cell[50787, 1090, 781, 18, 26, "PreviousNext"],
-Cell[CellGroupData[{
-Cell[51593, 1112, 537, 11, 27, "Input"],
-Cell[52133, 1125, 13050, 218, 306, "Output"]
-}, {2}]]
-}, Open  ]]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[65241, 1350, 64, 1, 8, "SlideShowNavigationBar",
- CellTags->"SlideShowHeader"],
-Cell[CellGroupData[{
-Cell[65330, 1355, 102, 1, 67, "Section"],
-Cell[65435, 1358, 781, 18, 26, "PreviousNext"],
-Cell[CellGroupData[{
-Cell[66241, 1380, 714, 21, 27, "Input"],
-Cell[66958, 1403, 1906, 40, 363, "Output"]
+Cell[66247, 1380, 714, 21, 27, "Input"],
+Cell[66964, 1403, 1906, 40, 363, "Output"]
 }, {2}]],
 Cell[CellGroupData[{
-Cell[68898, 1448, 440, 6, 27, "Input",
+Cell[68904, 1448, 440, 6, 27, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.}],
-Cell[69341, 1456, 1015, 27, 45, "Input",
+Cell[69347, 1456, 1015, 27, 45, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.},
  InitializationCell->True],
-Cell[70359, 1485, 433, 12, 27, "Input",
+Cell[70365, 1485, 433, 12, 27, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.},
  InitializationCell->True],
-Cell[70795, 1499, 449, 13, 27, "Input",
+Cell[70801, 1499, 449, 13, 27, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.},
  InitializationCell->True],
-Cell[71247, 1514, 463, 14, 27, "Input",
+Cell[71253, 1514, 463, 14, 27, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.},
  InitializationCell->True],
-Cell[71713, 1530, 1571, 40, 103, "Input",
+Cell[71719, 1530, 1571, 40, 58, "Input",
  CellGroupingRules->{GroupTogetherGrouping, 10000.},
  InitializationCell->True]
-}, Closed]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[73327, 1575, 186, 5, 27, "Input"],
+Cell[73516, 1582, 2553, 56, 134, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
